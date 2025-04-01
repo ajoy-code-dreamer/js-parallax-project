@@ -1,0 +1,42 @@
+/* ========== common css =========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,menu{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* ========== common css =========== */
+/* ============== parallaxJs ============= */
+#banner{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/space_bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.astro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+}
+.moon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+/* ============== parallaxJs ============= */
